@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  body{
+    background-image: linear-gradient(rgba(189, 189, 189, 0.5),rgba(128, 121, 121, 0.5)),url(image/register.jpg);
+    background-size: 110%;
+    background-position: -10px -0px;
+    background-attachment: fixed;
+    color: #ffffff;
+    background-blend-mode: multiply;
+    font-size: 20px;
+    font-family: 'poppins','sans-serif';
+
+}
+.heading{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+}
+h1{
+    font-size: 35px;
+    color: #ffffff;
+}
+#content1{
+    width: 90%;
+    margin: auto;
+}
+#content2{
+position: relative;
+width: 100%;
+margin-top: 10px;
+}
+
+#content2 textarea
+{
+width: 100%;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+border: none;
+border-bottom: 2px solid #333;
+outline: none;
+
+}
+form{
+    background-color: rgba(0,0,0,0.7) ;
+    padding-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+form .box{
+    width: 98%;
+    height: 45px;
+    position: relative;
+    bottom: 7px;
+    border: 0;
+    border-radius: 5px;
+}
+
+button{
+    width: 98%;
+    height: 3.5em;
+    align-items: center;
+    position: relative;
+    top: 25px;
+    background-color: #d64036;
+    border: none;
+    color: rgb(225,225,225);
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}

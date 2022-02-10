@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+  body{
+    background: url(image/meeting.jpg);
+    background-size: 100%;
+    background-position: -0px -140px;
+    color: #ffffff;
+    align-items: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    font-family: 'poppins','sans-serif';
+
+}
+.form{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 35px;
+    justify-content: center;
+    width: 45%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 17%;
+    padding-bottom: 35px;
+
+}
+h1{
+    font-size: 54px;
+    text-align: center;
+}
+p{
+    font-size: 22px;
+    text-align: center;
+}
+
+button{
+    width: 12%;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 670px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #479898;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+  }

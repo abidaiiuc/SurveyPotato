@@ -1,0 +1,82 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dfdad6;
+  text-align: center;
+}
+h1 {
+  color: green;
+}
+.container h2{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 20%;
+  left:19%;
+  color: green;
+}
+img {
+  float: right; 
+  padding-top: 7%;
+  width: 420px;
+  height: 350px;
+  margin: 5px;
+  padding-right: 20%;
+}
+.intro p {
+  text-align: justify;
+  font-size: 20px;
+  padding-top: 6%;
+  padding-left: 12%;
+  padding-right: 50%;
+}
+.contain h2{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 66%;
+  left:24%;
+  color:  green;
+}
+.con h3{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 71%;
+  left: 17%;
+  color: green;
+}
+.intro1 p {
+  text-align: justify;
+  font-size: 20px;
+  padding-top: 4%;
+  padding-left: 12%;
+  padding-right: 20%;
+}
+.containa h3{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 95%;
+  left: 21.6%;
+  color: green;
+}
+.intro2 p {
+  text-align: justify;
+  font-size: 20px;
+  padding-top: 0;
+  padding-left: 12%;
+  padding-right: 20%;
+}
+.know h2{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 162%;
+  left:31.3%;
+  color: green;
+}
+.intro3 p {
+  text-align: justify;
+  font-size: 20px;
+  padding-top: 2%;
+  padding-left: 12%;
+  padding-right: 20%;
+}

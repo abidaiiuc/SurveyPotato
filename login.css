@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background: #F3F5F9;
+    padding: 0 10px;
+  }
+  .login {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .login{
+    background: #fff;
+    width: 410px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+
+  }
+  .login .login-header{
+    color: rgb(56, 63, 80);
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    
+  }
+  .login-form h3 {
+    margin-top: -8px;
+   margin-bottom: 10px;
+   color: rgb(56, 63, 80) ;
+  }
+
+  .login .login-form {
+    height: 45px;
+    width: 100%;
+    margin: 50px 0px;
+    margin-bottom: 260px;
+
+  }
+  .login label[type="text"],
+  .login label[type="password"] {
+      font-size: 18px;
+
+  }
+  .login input[type="text"],
+  .login input[type="password"] {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px #000;
+    
+  }
+  .login input:focus[type="text"],
+  .login input:focus[type="password"]{
+    border-color: rgb(31, 145, 204);
+    border-bottom-width: 2px;
+  }
+  .login-form input[type="button"] {
+    height: 48px;
+    width: 100%;
+    background: rgb(31, 145, 204);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor:pointer;
+  }
+  .login-form input:hover[type="button"]{
+    background: #e48853;
+    border: 1px solid;
+  }
+
+.login-button {
+    margin: 30px 0;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+  }
+.forgot-pass{
+  margin-top: -8px;
+  color: grey;
+  text-decoration: underline;
+  }
+.forgot-pass:hover{
+    text-decoration: underline;
+    color: rgb(57, 188, 231) ;
+    } 
+.signup-link{
+ text-align: center;
+} 
+.signup-link a{
+  color: rgb(57, 188, 231);
+  text-decoration: none;
+} 
+.signup-link a:hover{
+  text-decoration: underline;
+}
